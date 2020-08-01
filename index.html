@@ -113,7 +113,7 @@
     <div class="tab-content py-5">
         <div class="tab-pane active" id="Ninja">
             <h3>The Net Ninja</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
+            <p>Lorem ipsum dolor<span data-toggle="tooltip" title="this is tooltip" class="text-info" data-placement="bottom"> sit amet consectetur</span> adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p> <!--this is tool tip method used code link-->
         </div>
         <div class="tab-pane" id="Wizard">
             <h3>The Web Wizard</h3>
@@ -218,6 +218,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+        <!-- tooltip -->
+        <script>
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
 </body>
 
 </html>
